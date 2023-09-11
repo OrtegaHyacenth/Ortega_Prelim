@@ -67,10 +67,9 @@ public class Ortega_Prelim {
                         for (int i = 0; i < n; i++){
                          System.out.println(fibonacci (i) + "");
       
-                         }
-                        break;
-                     }
-                case 0:
+                         }                    
+             break;
+             case 0:
                     continueLoop = false;
                     break;
                 default:
@@ -79,6 +78,7 @@ public class Ortega_Prelim {
             
                  }
         }
+    }
       public static int fibonacci(int n){
         if (n ==0){
             return 0;
@@ -87,5 +87,6 @@ public class Ortega_Prelim {
         }else {
             return fibonacci (n - 1) + fibonacci (n - 2);
         }
+      }
 }
-}
+
